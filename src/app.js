@@ -17,7 +17,7 @@ hbs.registerPartials(partialPath);
 app.get('', (req, res) =>{
     res.render('index', {
         title: 'Weather',
-        name: 'Andrew Tutorial'
+        name: 'Replicate using Andrew Tutorial'
     });
 });
 
