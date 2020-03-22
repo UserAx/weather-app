@@ -51,7 +51,7 @@ app.get('/help', (req, res) =>{
 app.get('/about', (req, res) =>{
     res.render('about', {
         title: 'More-object',
-        name: 'Created by Andrew Tutorial'
+        name: 'Created by Sushant Sapkota'
     });
 });
 
