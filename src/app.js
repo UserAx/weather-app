@@ -44,7 +44,7 @@ app.get('/weather',(req, res) => {
 app.get('/help', (req, res) =>{
     res.render('help', {
         title: 'Help-object',
-        name: 'Andrew Tutorial'
+        name: 'Tutorial Project'
     });
 });
 
